@@ -1,0 +1,77 @@
+<DOCTYPE HTML>
+ <head>
+	<title> HW3 </title>
+ </head>
+<body>
+	<form action="../Lucter_3_Forms _ Tables.pdf" method="post">
+		<table border = "2px" TABLE ALIGN = "CENTER">
+			<tr>
+				<td>Last Name</td>
+				<td colspan="3"> <input type="text" name="LN" style = "width: 300px"> </td>
+			</tr>
+			<tr>
+				<td>First Name</td>
+				<td colspan="3"> <input type="text" name="FN" style = "width: 300px"> </td>
+			</tr>
+			<tr>
+				<td>Address</td>
+				<td colspan="3"> <input type="text" name="addres" style ="height: 100px; width: 300px"></td>
+			</tr>
+			<tr>
+				<td>City</td>
+				<td> <input type="text" name="city" style ="width: 120px"> </td>
+				<td>State</td>
+				<td><input type="text" name="state" style ="width: 135px"></td>
+			</tr>
+			<tr>
+				<td>Zip/Postal Code</td>
+				<td colspan="3"> <input type="text" name="Zip" style = "width: 300px"></td>
+			</tr>
+			<tr>
+				<td>Country</td>
+				<td colspan="3">
+					<SELECT NAME="select">
+						<OPTION VALUE= "Baghdad">Baghdad</OPTION>
+						<OPTION VALUE= "Babil">Babilon</OPTION>
+						<OPTION VALUE= "Karbala">Karbala</OPTION>
+					</SELECT>
+				</td>
+			</tr>
+			<tr>
+				<td>Phone(country code,area code,number)</td>
+				<td colspan="3">( + <input type="text" name="number1" style ="width: 70px"> ) <input type="text" name="number2" style ="width: 70px"> - <input type="text" name="number3" style ="width: 70px"></td>
+			</tr>
+			<tr>
+				<td>E-mail</td>
+				<td colspan="3"> <input type="email" name="email" style = "width: 300px"> </td>
+			</tr>
+			<tr>
+				<td>Birth date</td>
+				<td colspan="3">Month <input type="text" name="month" style = "width: 60px"> Day <input type="text" name="day" style = "width: 60px"> Year <input type="text" name="year" maxlength="4" style = "width: 60px"></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td colspan="3">
+					<SELECT NAME="select">
+						<OPTION VALUE= "male">Male</OPTION>
+						<OPTION VALUE= "female">Female</OPTION>
+					</SELECT>
+				</td>
+			</tr>
+			<tr>
+				<td>Starting date</td>
+				<td colspan="3">
+					<input type="radio" name="SD" value="Spring2006"> Spring 2006
+					<input type="radio" name="SD" value="Summer2006"> Summer 2006
+				</td>
+			</tr>
+			<tr>
+				<td>Comments/Questions</td>
+				<td colspan="3"> <input type="text" name="LN" style ="height: 100px; width: 300px"> </td>
+			</tr>
+			<tr TEXT align="CENTER">
+				<td colspan="4"> <input type="submit" name="submit"> <input type="reset" name="reset"></td>
+			</tr>
+		</table>
+	</form>
+</body>
